@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Play Music Button</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <button id="playButton">Play Music</button>
+  <audio id="audioPlayer" src="audio/music2.mp3" type="audio/mp3"></audio>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+  var audioPlayer = document.getElementById('audioPlayer');
+  var playButton = document.getElementById('playButton');
+
+  playButton.addEventListener('click', function () {
+    if (audioPlayer.paused) {
+      // Nếu audio đang tạm dừng, phát nhạc
+      audioPlayer.play();
+      playButton.innerText = 'Pause Music';
+    } else {
+      // Nếu audio đang phát, tạm dừng
+      audioPlayer.pause();
+      playButton.innerText = 'Play Music';
+    }
+  });
+});
+
+</script>
