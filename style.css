@@ -5,7 +5,7 @@ body {
   align-items: center;
   justify-content: center;
   background-size: 1000px;
-  background-image: url("https://www.psdgraphics.com/wp-content/uploads/2022/01/white-math-paper-texture.jpg");
+  background-image: url("https://i.pinimg.com/564x/5a/0f/d3/5a0fd3246ebef7a4f49e91d3240d9ae7.jpg");
   background-position: center center;
 }
 .overlay {
@@ -47,7 +47,7 @@ body {
 }
 
 .paper {
-  background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
+  background-image: url("https://i.pinimg.com/564x/a2/16/3d/a2163d22a5670dd9eefe90ee646c850e.jpg");
   background-size: 500px;
   background-position: center center;
   padding: 20px 100px;
@@ -77,12 +77,14 @@ body {
 }
 
 img {
-  max-height: 200px;
+  max-height: 250px;
   width: 100%;
   user-select: none;
   object-fit: cover;
 }
-
+a{
+  list-style: none;
+}
 .paper.heart::after {
   content: "";
   background-image: url('https://th.bing.com/th/id/OIP._u4jkSIsbSpcEz-CkR486wHaHa?rs=1&pid=ImgDetMain');
@@ -111,10 +113,10 @@ p {
     bottom: 50px;
 }
 button {
-  --glow-color: rgb(217, 176, 255);
-  --glow-spread-color: rgba(191, 123, 255, 0.781);
-  --enhanced-glow-color: rgb(231, 206, 255);
-  --btn-color: rgb(100, 61, 136);
+  --glow-color: rgb(255, 255, 255);
+  --glow-spread-color: rgba(53, 232, 187, 0.781);
+  --enhanced-glow-color: rgb(192, 251, 244);
+  --btn-color: rgb(31, 185, 167);
   border: .25em solid var(--glow-color);
   padding: 1em 3em;
   color: var(--glow-color);
@@ -165,3 +167,12 @@ button {
   color: rgb(0, 0, 0);
   font-family: 'Zeyada';
  }
+#myVideo{
+  top:0;
+  position: absolute;
+  right:0;
+}
+.linktopage{
+  position: absolute;
+  top:0;
+}
